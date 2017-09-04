@@ -1,0 +1,149 @@
+What jdk contains or composed of and define each components?
+-   JDK stands for Java Development Kit. The components of JDK are:
+    *	The Runtime Interpreter
+    *	The Compiler
+    *	The Applet Viewer
+    *   The Debugger
+    *	The Class File Disassembler
+    *	The Header and Stub File Generator
+    *	The Documentation Generator
+    *	Applet Demos
+    *	API Source Code
+
+What is IDE?
+-   IDE: Integrated Development Environment
+
+What are the IDEs available in the market to support java?
+-   There are many IDEs available in the market to support Java. Eclipse, IntelliJ, DrJava, JDeveloper, JEdit are to name a few.
+
+Explain the entire java life cycle.
+-   Editor -> Source code -> Java compiler -> Byte codes -> JVM -> Operating system
+
+what is class?
+-   Class is the blueprint of an object.
+
+What is object?
+-   Object is an instance of a Class.
+
+What is the entry point of an application?
+-    Entry point is where the processor enters a program or a code fragment and execution begins
+
+Why main is static?
+-   Main is static because it is called by the JVM before any objects are made
+
+What is the difference between an Interface and Abstract class?
+-   Java abstract class can have instance methods that implements a default behavior
+    Variables declared in a Java interface is by default final
+
+Can you make an Object from an Interface and Abstract class? if not how do you use it?
+-   Making an Object from an Intefact and Abstract class is not possible. it is more of creating an instance of an anonymous subclass of abstract class
+
+What is Access Specifier?
+-   The three online Access Specifier are Public, Private, and Protected
+
+What is OOP? Define each feature of java OOP.
+-   OOP: Object Oriented Programming. It's four different features are as follows:
+    *	Abstraction
+    *	Encapsulation
+    *	Inheritance
+    *	Polymorphism
+
+What is API? Name list of API that you have used so far.
+-   API: Application Programming Interface
+    So far, we have used GitHib.
+
+Does java support multiple inheritance?
+-   Java does not support multiple inheritance.
+
+What is method overloading and when it happens?
+-   Method overloading happens when two or more methods in one class have the same method name but different parameters
+
+Explain exceptions in java and how to handle it.
+-   The exceptions in Java are handled in two ways:
+    *	Checked exceptions
+    *	Unchecked exceptions
+
+What is static keyword in java? How it has been used in variables and methods?
+-   The static keyword in java is mainly used for memory management.
+
+What is final and how it has been used variables and methods?
+-   Final variable: It cannot be changed
+    Final Method: It cannot be overwritten
+
+What is final, finally and finalize?
+-   Final, finally, and finalize are:
+    *	Final class can't be inherited, final method can't be overridden and final variable value can't be changed.
+    *	Finally is used to place important code, it will be executed whether exception is handled or not.
+    *	Finalize is used to perform clean up processing just before object is garbage collected.
+
+
+What is a constructor?
+-   The purpose of constructor is to initialize an Object
+
+What is "this" keyword in java?
+-   "This" keyword is Java is a reference variable that refers to the current object
+
+What is "super" keyword in java?
+-   "Super" is used inside a sub-class method definition to call a method defined in the super class.
+
+What is JVM stand for ?
+-   JVM: Java Virtual Mechine
+
+What version of java are you using?
+-   The version of Java I am currently using is JDK 8 update 144
+
+What is JAR stand for ?
+-   JAR: Java Archive
+
+What is compile time and run time?
+-   Compile and run time are:
+    *	 Compile time polymorphism (static binding): method overloading
+    *    Runtime polymorphism (dynamic binding): method overriding
+
+What is heap?
+-   Heap is a segment of RAM
+
+How java manage it's memory?
+-   Java manages it's memory with the help of Heap and the Nursery
+
+What is the difference between String, StringBuffer and StringBuilder?
+-   The difference between StringBuffer and StringBuilder are:
+    *	StringBuffer is synchronized
+    *	StringBuilder is not synchronized
+
+What is Singleton class?
+-   The singleton pattern is implemented by creating a class with a method that creates a new instance of the class if one does not exist
+
+What is Serialization and Deserialization?
+-   Serialization and deserialization are as follows:
+    *   Serialization is the process of converting an object into a stream of bytes in order to store the object or transmit it to memory, a database, or a file
+    *   Deserialization is taking data structured from some format, and rebuilding it into an object
+
+Which one will take more memory, an int or Integer?
+-    Int and Integer occupy 4 bytes
+
+Why is String Immutable in Java?
+-   String is immutable in Java so that a file or connection does not change and lead to serious security threat
+
+What is constructor chaining in Java?
+-   Calling one constructor from other is called Constructor chaining in Java
+
+The difference between Serial and Parallel Garbage Collector?
+-   Serial collector:a default copying collector which uses only one Garbage Collection thread for the Garbage Collection operation
+    Parallel collector: uses multiple Garbage Collection threads for the Garbage Collection operation
+
+What is JIT stands for?
+-   JIT: Just in Time
+
+Explain Java Heap space and Garbage collection?
+-   Java Heap space and Garbage collection are:
+    * Java Heap space: divided into three regions for sake of garbage collection called New Generation, Old or tenured Generation or Perm Space
+    * Garbage collection: The garbage collector is a program which runs on the JVM which gets rid of objects which are not being used by a Java application anymore
+
+Can you guarantee the garbage collection process?
+-   The garbage collection process cannot be guaranteed
+
+What is the difference between stack and heap in Java?
+-   The main difference between heap and stack are:
+    * Stack: used to store local variables and function call
+    * Heap: used to store objects in Java
